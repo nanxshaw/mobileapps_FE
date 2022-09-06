@@ -41,7 +41,6 @@ class FormCustomer extends Component {
     }
 
     componentDidMount() {
-        console.log('masuk');
         this.getBranch();
         this.getProduct();
         this.getTenor();
